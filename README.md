@@ -5,6 +5,11 @@ Allows the synchronisation of classes, teachers and students to Microsoft Teams 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
   * [Azure Active Directory App Registration](#azure-active-directory-app-registration)
+  * [PowerShell](#powershell)
+  * [Account Matching](#account-matching)
+- [Varaibles](#variables)
+- [High Level Script Process](#high-level-script-process)
+- [Considerations](#considerations)
 
     
 ## Overview
@@ -51,7 +56,7 @@ The following information will be required for HelloID to connect to the app reg
 *	Application ID
 *	Client secret
 
-### PowerShell 5.1
+### PowerShell
 The task requires PowerShell 5.1 to be installed on the HelloID agent server. PowerShell 5.1 is installed on Windows Server 2016 and 2019 by default. Please check the Microsoft link below to install PowerShell 5.1 if it is not already installed:
 https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/install/windows-powershell-system-requirements?view=powershell-7
 
