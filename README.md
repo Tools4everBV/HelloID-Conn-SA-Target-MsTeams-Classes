@@ -10,6 +10,7 @@ Allows the synchronisation of classes, teachers and students to Microsoft Teams 
 - [Varaibles](#variables)
 - [High Level Script Process](#high-level-script-process)
 - [Considerations](#considerations)
+- [Files](#files)
 
     
 ## Overview
@@ -109,5 +110,12 @@ Items to consider when using this script:
 * Academic year changes/end of year rollup. Generally we implement the process to stop synchronising before students finish for the summer break. This means no classes change over the summer and students are still in the assigned classes until the process is configured to run again in the new year.
 * The best way to archive/delete these teams in the new academic year (if applicable)
 
+## Files
 
+| Filename | Description |
+| :------- | :---------- |
+| HelloIDVariablesExample.png | An example image showing HelloID variable configuration.
+| Sample.csv | An example csv source data file.
+| SyncClassesToMSTeamsFromCsv.ps1 | The PowerShell script used to create the HelloID task.
+| TeamsAdminPortalExample.png | An image showing an example of Teams created by the script in the Microsoft 365 Admin Centre.
 
