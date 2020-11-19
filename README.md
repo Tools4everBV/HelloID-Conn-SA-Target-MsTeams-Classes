@@ -10,7 +10,7 @@ Allows the synchronisation of classes, teachers and students to Microsoft Teams 
 - [Varaibles](#variables)
 - [High Level Script Process](#high-level-script-process)
 - [Considerations](#considerations)
-- [Files](#files)
+- [File Information](#file-information)
 
     
 ## Overview
@@ -110,7 +110,7 @@ Items to consider when using this script:
 * Academic year changes/end of year rollup. Generally we implement the process to stop synchronising before students finish for the summer break. This means no classes change over the summer and students are still in the assigned classes until the process is configured to run again in the new year.
 * The best way to archive/delete these teams in the new academic year (if applicable)
 
-## Files
+## File Information
 
 | Filename | Description |
 | :------- | :---------- |
