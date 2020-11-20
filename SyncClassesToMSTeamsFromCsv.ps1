@@ -99,9 +99,9 @@ try {
         Hid-Write-Status -Message "Successfully retrieved $($sourceGroups.count) unique records." -Event Information
 }
 catch {
-        Hid-Write-Status -Message "Error retrieving data from Sims .Net. $($_.Exception.Message)" -Event "Error"
+        Hid-Write-Status -Message "Error retrieving data from CSV. $($_.Exception.Message)" -Event "Error"
         Hid-Write-Status -Message "Synchronisation finished." -Event "Information"
-        Hid-Write-Summary -Message "Error retrieving data from Sims .Net. $($_.Exception.Message)" -Event Error -Icon fa-tasks
+        Hid-Write-Summary -Message "Error retrieving data from CSV. $($_.Exception.Message)" -Event Error -Icon fa-tasks
         Hid-Write-Summary -Message "Synchronisation finished." -Event Information -Icon fa-tasks 
         exit
 }
