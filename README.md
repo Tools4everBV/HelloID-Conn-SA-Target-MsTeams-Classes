@@ -114,8 +114,7 @@ Items to consider when using this script:
 
 | Filename | Description |
 | :------- | :---------- |
-| HelloIDVariablesExample.png | An example image showing HelloID variable configuration.
-| Sample.csv | An example csv source data file.
+| Assets/HelloIDVariablesExample.png | An example image showing HelloID variable configuration.
+| Assets/Sample.csv | An example csv source data file.
+| Assets/TeamsAdminPortalExample.png | An image showing an example of Teams created by the script in the Microsoft 365 Admin Centre.
 | SyncClassesToMSTeamsFromCsv.ps1 | The PowerShell script used to create the HelloID task.
-| TeamsAdminPortalExample.png | An image showing an example of Teams created by the script in the Microsoft 365 Admin Centre.
-
