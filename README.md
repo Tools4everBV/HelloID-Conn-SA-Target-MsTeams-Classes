@@ -7,7 +7,7 @@ Allows the synchronisation of classes, teachers, and students to Microsoft Teams
   * [Azure Active Directory App Registration](#azure-active-directory-app-registration)
   * [PowerShell](#powershell)
   * [Account Matching](#account-matching)
-- [Varaibles](#variables)
+- [Variables](#variables)
 - [High Level Script Process](#high-level-script-process)
 - [Considerations](#considerations)
 - [File Information](#file-information)
